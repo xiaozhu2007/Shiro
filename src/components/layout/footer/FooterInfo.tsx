@@ -190,17 +190,11 @@ const FooterBottom = async () => {
             站点地图
           </a>
           <Divider />
-          <a href="https://www.qiudcdn.cn/" target="_blank" rel="noreferrer">
-            本站由 QiuDN 提供加速服务
-          </a>
           <Divider className="inline" />
 
           <SubscribeTextButton>
             <Divider className="hidden md:inline" />
           </SubscribeTextButton>
-        </span>
-        <span className="mt-3 block md:mt-0 md:inline">
-          保持饥饿，保持愚蠢
         </span>
       </p>
       <div>
