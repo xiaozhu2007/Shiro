@@ -29,7 +29,7 @@
       i =
         ((a.n = t),
         (a.u = r.href),
-        (a.d = "liuzhen932.top",
+        (a.d = "liuzhen932.top"),
         (a.r = n.referrer || null),
         e && e.meta && (a.m = JSON.stringify(e.meta)),
         e && e.props && (a.p = e.props),
