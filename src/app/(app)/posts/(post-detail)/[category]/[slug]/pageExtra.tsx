@@ -1,8 +1,9 @@
 'use client'
 
-import { useEffect } from 'react'
 import type { Image } from '@mx-space/api-client'
+import { useRouter } from 'next/navigation'
 import type { PropsWithChildren } from 'react'
+import { useEffect, useRef } from 'react'
 
 import { useSetHeaderMetaInfo } from '~/components/layout/header/hooks'
 import { PostMetaBar } from '~/components/modules/post/PostMetaBar'
@@ -96,4 +97,16 @@ export const PostMetaBarInternal: Component = ({ className }) => {
       <CurrentReadingCountingMetaBarItem />
     </PostMetaBar>
   )
+}
+
+export const SlugReplacer = ({ to }: { to: string }) => {
+  const router = useRouter()
+  const onceRef = useRef(false)
+
+  if (!onceRef.current) {
+    onceRef.current = true
+    router.replace(to)
+  }
+
+  return null
 }
