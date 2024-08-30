@@ -190,8 +190,10 @@ const FooterBottom = async () => {
             站点地图
           </a>
           <Divider />
+          <a href="https://chmlfrp.cn/" target="_blank" rel="noreferrer">
+            Chmlfrp 免费内网穿透
+          </a>
           <Divider className="inline" />
-
           <SubscribeTextButton>
             <Divider className="hidden md:inline" />
           </SubscribeTextButton>
