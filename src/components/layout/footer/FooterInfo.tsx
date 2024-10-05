@@ -121,7 +121,7 @@ const PoweredBy: Component = ({ className }) => {
         mobileAsSheet
         type="tooltip"
         triggerElement={
-          <StyledLink href="https://github.com/innei/Shiro" target="_blank">
+          <StyledLink href="https://github.com/xiaozhu2007/Shiro" target="_blank">
             Shiro
           </StyledLink>
         }
@@ -134,7 +134,7 @@ const PoweredBy: Component = ({ className }) => {
         >
           Shiro
         </StyledLink>{' '}
-        的开源版本。
+        的开源二改版本。
         {process.env.COMMIT_HASH && process.env.COMMIT_URL && (
           <MLink popper={false} href={process.env.COMMIT_URL}>
             版本哈希：{process.env.COMMIT_HASH.slice(0, 8)}
@@ -194,6 +194,10 @@ const FooterBottom = async () => {
           <a href="/sitemap.xml" target="_blank" rel="noreferrer">
             站点地图
           </a>
+          <Divider />
+          <a href="https://chmlfrp.cn/" target="_blank">
+            Chmlfrp 免费内网穿透
+          </a>
           <Divider className="inline" />
 
           <SubscribeTextButton>
@@ -201,7 +205,7 @@ const FooterBottom = async () => {
           </SubscribeTextButton>
         </span>
         <span className="mt-3 block md:mt-0 md:inline">
-          Stay hungry. Stay foolish.
+          只要愿意去做，人无所不通
         </span>
       </p>
       <div>
