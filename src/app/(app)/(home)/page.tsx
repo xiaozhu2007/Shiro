@@ -187,7 +187,7 @@ const Hero = () => {
           )}
         >
           <small className="text-center">
-            当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。
+            规则，就是用来打破的！
           </small>
           <span className="mt-8 animate-bounce">
             <i className="icon-[mingcute--right-line] rotate-90 text-2xl" />
@@ -229,27 +229,27 @@ const windsock = [
     icon: FaSolidFeatherAlt,
   },
   {
-    title: '度过的时光呀',
+    title: '时光',
     icon: FaSolidHistory,
     path: '/timeline',
   },
   {
-    title: '朋友们',
+    title: '朋友',
     icon: FaSolidUserFriends,
     path: '/friends',
   },
   {
-    title: '写下一点思考',
+    title: '思考',
     icon: MdiLightbulbOn20,
     path: '/thinking',
   },
   {
-    title: '看看我做些啥',
+    title: '项目',
     icon: MdiFlask,
     path: '/projects',
   },
   {
-    title: '记录下一言',
+    title: '一言',
     path: '/says',
     icon: FaSolidComments,
   },
